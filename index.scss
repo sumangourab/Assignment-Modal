@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-body {
+  padding: 0;
+}
+.modal-content {
+  width: 383px;
+  height: 605px;
+  background: #ffffff;
+  box-shadow: 0px 4px 75px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+.header-sec {
+  width: 100%;
+  height: 53px;
+  background: linear-gradient(
+      270.04deg,
+      #fffae0 0.03%,
+      rgba(240, 255, 246, 0) 99.96%
+    ),
+    #ffc0c0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .left-section {
+    display: flex;
+    align-items: center;
+    height: 53px;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 12px;
+    }
+    .user-info {
+      margin: 19px 0 0 8px;
+    }
+
+    
+    .user-info .info p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+
+      color: rgba(0, 37, 47, 0.56);
+    }
+  }
+
+  .right-section {
+    margin-right: 10px;
+
+    
+
+    .country {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 4px;
+      background: #ffffff;
+      border: 1px solid #f2f2f2;
+      border-radius: 4px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #666666;
+    }
+  }
+}
+
+.common {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #888888;
+  }
+  .res {
+    margin-left: 20px;
+  }
+
+  .user-info .name p,.bottom p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #00252f;
+    margin-bottom: 0;
+  }
+
+.data {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.personal-data {
+    width: 117px;
+height: 41px;
+background: #fff;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+border-radius: 4px;
+margin-top: 10px;
+
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+    margin-bottom: 8px;
+}
+
+.bottom {
+    background: #fff6ef;
+border-radius: 0px 0px 4px 4px;
+display: flex;
+
+ p {
+    margin-left: 8px;
+}
+}
+
+}
+.last {
+    width: 170px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+
+.fa-solid {
+    color: #ED8383;
+    font-size: 8px;
+}
+
+.admission-journey {
+    width: 381px;
+height: 414px;
+background: #f8f8f8;
+border-radius: 6px 6px 8px 8px;
+margin-top: 30px;
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 20px;
+    text-align: center;
+
+.time {
+    color: #FF0042;
+    font-size: 10px;
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.left-main-title,.right-time {
+    margin-top: 10px;
+}
+
+.left-main-title span {
+font-weight: 200;
+font-size: 18px;
+color: #00252F;
+}
+
+}
+
+.line {
+    width: 1px;
+    height: 300px;
+    position: absolute;
+    left: 54px;
+    top: 248px;
+    background-color: rgba(138, 169, 181, 0.24);;
+}
+.side-time,.side-time2,.side-time3 {
+    position: absolute;
+    left: 15px;
+    top: 47.5%;
+    font-size: 10px;
+    font-weight: 400;
+    color: #888888;
+}
+.side-time2 {
+    top: 57.5%;
+}
+.side-time3 {
+    top: 67%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+
+.resize {
+    font-size: 28px;
+    color:#3AB748;
+    margin-left: 40px;
+}
+.resize2 {
+    font-size: 20px;
+    margin-left: 40px;
+}
+.resize2 img {
+    width: 23px;
+    height: 23px;
+}
+
+.detail {
+    font-size: 12px;
+    color: #555555;
+    font-weight: 500;
+    margin-left: 12px;
+    margin-right: 5px;
+
+}
+
+.status-rs {
+    margin-bottom: -16px;
+}
+
+
+.date {
+    font-size: 10px;
+    color: #616161;
+    font-weight: 400;
+}
+
+.doctor {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+span {
+    font-size: 10px;
+    color: #777777;
+    font-weight: 400;
+}
+
+.doctor-icon {
+    font-size: 10px;
+    color: #00252f;
+}
+
+}
+
+}
+}
+
+@media (max-width: 480px) {
+    .modal-content {
+        width: 340px;
+        height: 450px;
+      }
+
+.header-sec .right-section {
+    margin-right: 40px;
+}
+
+
+.data {
+    margin-left: 20px;
+}
+.personal-data {
+    width: 140px;
+}
+      .admission-journey {
+        width: 339px;
+        height: 340px;
+    
+.title {
+    margin: 10px 10px;
+
+    .right-time {
+
+        margin-right: 25px;
+
+    .time {
+        
+        margin-left: 5px;
+    }
+}
+}
+.box {
+    margin-bottom: 15px;
+
+    .resize {
+        font-size: 20px;
+    color: #3AB748;
+    margin-left: 13px;
+    }
+
+    .resize2 {
+        font-size: 15px;
+        margin-left: 13px;
+    }
+    .resize2 img {
+        width: 18px;
+        height: 18px;
+    }
+
+.doctor {
+    margin-left: 46px;
+}
+
+}
+
+.side-time,.side-time2,.side-time3 {
+    display: none;
+}
+
+.line {
+    height: 230px;
+    left: 23px;
+    top: 290px;
+}
+
+      }
+
+  }

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Modal Assignment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Launch modal
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="header-sec">
+              <div class="left-section">
+                <div class="logo">
+                  <img src="./assets/male.svg" alt="user logo" />
+                </div>
+                <div class="user-info">
+                  <div class="name">
+                    <p>ETHAN WONG</p>
+                  </div>
+                  <div class="info">
+                    <p>Male, 60 yrs (Senior Citizen)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="right-section">
+                <span class="common res">Resident</span>
+                <div class="country">Malaysia</div>
+              </div>
+            </div>
+
+            <div class="patient-info">
+              <div class="data">
+                <div class="personal-data">
+                  <div class="top">
+                    <span class="common"> Patient ID </span>
+                    <i class="fa-solid fa-id-card"></i>
+                  </div>
+                  <div class="bottom">
+                    <p>5321344</p>
+                  </div>
+                </div>
+                <div class="personal-data">
+                  <div class="top">
+                    <span class="common"> Visit ID </span>
+                    <i class="fa-solid fa-calendar-days"></i>
+                  </div>
+                  <div class="bottom">
+                    <p>2735678</p>
+                  </div>
+                </div>
+                <div class="personal-data">
+                  <div class="top">
+                    <span class="common"> Ward </span>
+                    <i class="fa-solid fa-hospital"></i>
+                  </div>
+                  <div class="bottom">
+                    <p>Ward 2A</p>
+                  </div>
+                </div>
+                <div class="personal-data last">
+                  <div class="top">
+                    <span class="common"> Bed (F5-102) </span>
+                    <span><img src="./assets/bed.svg" alt="" /></span>
+                  </div>
+                  <div class="bottom">
+                    <p>Single Bed</p>
+                  </div>
+                </div>
+                <div class="personal-data last phone">
+                  <div class="top">
+                    <span class="common"> Payor </span>
+                    <span><img src="./assets/umbrella.svg" alt="" /></span>
+                  </div>
+                  <div class="bottom">
+                    <p>AIA BHD (INDIVIDUAL)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="admission-journey">
+              <div class="title">
+                <div class="left-main-title">
+                  <span>Admission Journey</span>
+                </div>
+                <div class="right-time">
+                  <span class="common">Elapsed Time</span>
+                  <span class="time">02:45</span>
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <span class="side-time">00:24</span>
+
+              <div class="box">
+                <span class="status status-rs">
+                  <i class="fa-solid fa-circle-check resize"></i>
+                </span>
+                <span class="detail">
+                  Admission Request
+                </span>
+                <span class="date">
+                    Dec 06 2021 08:36 AM
+                </span>
+                <div class="doctor">
+                    <i class="fa-solid fa-user-doctor doctor-icon"></i>
+                    <span>Ratha AP</span>
+
+                </div>
+              </div>
+              <span class="side-time2">02:23</span>
+              <div class="box">
+                <span class="status status-rs">
+                  <i class="fa-solid fa-circle-check resize"></i>
+                </span>
+                <span class="detail"> Sent for IGL Approval </span>
+                <span class="date">
+                     Dec 06 2021 09:00 AM
+                </span>
+                
+                <div class="doctor">
+                    <i class="fa-solid fa-user-doctor doctor-icon"></i>
+                    <span>Jin Chin</span>
+                </div>
+              </div>
+              <span class="side-time3">00:15</span>
+              <div class="box">
+                <span class="status status-rs">
+                  <i class="fa-solid fa-circle-check resize"></i>
+                </span>
+                <span class="detail"> Received IGL Approval </span>
+                <span class="date">
+                    Dec 06 2021 11:23 AM
+                </span>
+                
+                <div class="doctor">
+                    <i class="fa-solid fa-user-doctor doctor-icon"></i>
+                    <span>Jin Chin</span>
+                </div>
+              </div>
+              <div class="box">
+                <span class="status status-rs">
+                  <i class="fa-solid fa-circle-check resize"></i>
+                </span>
+                <span class="detail"> Requested Bed Confirmation </span>
+                <span class="date">
+                    Dec 06 2021 11:38 AM
+                </span>
+                
+                <div class="doctor">
+                    <i class="fa-solid fa-user-doctor doctor-icon"></i>
+                    <span>Jin Chin</span>
+                </div>
+              </div>
+              <div class="box">
+                <span class="status resize2">
+                  <img src="./assets/bed.svg" alt="" />
+                </span>
+                <span class="detail"> Admitted </span>
+
+              </div>
+              <div class="box">
+                <span class="status">
+                  <i class="fa-solid fa-bed resize2"></i>
+                </span>
+                <span class="detail"> Accepted </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
